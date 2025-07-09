@@ -1,0 +1,27 @@
+# RAG Project Requirements
+# Core ML and AI libraries
+torch>=2.0.0
+transformers>=4.35.0
+optimum>=1.15.0
+
+# LangChain ecosystem
+langchain>=0.1.0
+langchain-core>=0.1.0
+langchain-community>=0.0.10
+
+# Vector stores and embeddings
+chromadb>=0.4.0
+langchain-chroma>=0.0.5
+qdrant-client>=1.7.0
+langchain-qdrant>=0.0.1
+
+# Document processing
+langchain-docling>=0.0.1
+langchain-text-splitters>=0.0.1
+
+# Text processing and utilities
+typing-extensions>=4.8.0
+
+# Note: Some packages may require specific versions depending on your environment
+# If you encounter compatibility issues, try installing with:
+# pip install -r requirements.txt --upgrade 

@@ -1,6 +1,10 @@
 # Rebellions RAG
 
-RAG (Retrieval-Augmented Generation) 시스템을 위한 프로젝트입니다.
+- Rebellions NPU RAG(Retrieval-Augmented Generation) 테스트
+- LLM : EVE-Korean-Instruct-10.8B-v1.0
+- Embedding : bge-m3
+- Reranker : ko-reranker
+- RangChain
 
 ## 📋 실행 순서
 
@@ -31,7 +35,7 @@ python chroma.py
 python reranker_compile.py
 ```
 
-### 5. RAG 시스템 실행
+### 5. RAG 실행
 
 ```bash
 python rag.py
@@ -39,7 +43,7 @@ python rag.py
 
 ## 📁 프로젝트 구조
 
-- `eeve_compile.py` - E5 모델 컴파일
+- `eeve_compile.py` - EEVE 모델 컴파일
 - `bge_compile.py` - BGE 모델 컴파일
 - `pdf2md.py` - PDF 문서를 Markdown으로 변환
 - `chroma.py` - Chroma 벡터 데이터베이스 설정
